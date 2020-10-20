@@ -1,0 +1,14 @@
+name: dask
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - matplotlib
+  - dask
+  - numpy
+  - scipy
+  - jupyterlab
+  - pip=20
+  - pip:
+    - dask_labextension
