@@ -1,4 +1,5 @@
 # gitignore for dask stuff
 
+.jupyter
 .ipynb_checkpoints
 dask-worker-space
