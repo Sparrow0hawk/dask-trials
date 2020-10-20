@@ -1,0 +1,4 @@
+# gitignore for dask stuff
+
+.ipynb_checkpoints
+dask-worker-space
