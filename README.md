@@ -60,7 +60,11 @@ helm repo update
 
 # use helm to install the dask chart
 # the --set options here are crucial to ensure the cluser is publicly exposed
-helm install dask-kube dask/dask --namespace dask-kube --create-namespace --set scheduler.serviceType=LoadBalancer --set jupyter.serviceType=LoadBalancer
+helm install dask-kube dask/dask \
+             --namespace dask-kube \
+             --create-namespace \
+             --set scheduler.serviceType=LoadBalancer \
+             --set jupyter.serviceType=LoadBalancer
 
 ```
 
